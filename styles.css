@@ -1,0 +1,218 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  padding:0;
+  overflow-x: hidden;
+}
+#title {
+  background-color: #C58981;
+  color: #fff;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #1f1f1f;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+.icon {
+  color: #BF7C73;
+  margin-bottom: 5%;
+}
+
+
+.icon-footer {
+  color: #BF7C73;
+  margin-bottom: 5%;
+}
+.icon-footer:hover {
+  color: #BF7C73;
+}
+
+
+
+
+.container-fluid {
+  padding: 3% 5% 1%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.title:hover{
+  text-shadow: 5px 3px 5px #00000019;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Poppins";
+}
+.nav-link:hover{
+  text-shadow: 5px 3px 5px #00000019;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button:hover{
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.331);
+}
+
+/* iphone image */
+.iphone-img {
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  border-radius:20%;
+}
+
+
+
+.rotate {
+  transform: rotate(10deg);
+}
+
+
+/* #about-us{
+  margin:5%;
+} */
+
+/* features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+}
+
+#cta {
+  background-color: #FFB999;
+  text-align: center;
+  padding: 1% 15% 1%;
+}
+
+
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+.spanSpace {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.social {
+  padding-bottom: 5%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.description-for-beginners{
+  line-height: 2;
+}
+
+.movie_head {
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  margin-left:15%;
+  background-color: #77deee88;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.movie_head:hover{
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.331); 
+}
+
+.movie_head-head {
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.331); 
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  margin-left:15%;
+  background-color: #77deee;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.instructional-text{
+  margin-left:20%;
+}
+
+.bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.instructional-image{
+  width: 80%;
+}
+
+.kite-base-instructions{
+  margin-left: 20%;
+}
+
+.instructional-image:hover{
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.331);
+}
+
+.instructional-title:hover{
+  text-shadow: 5px 3px 5px #00000019;
+}
+
+.instructional-text{
+  color:white;
+}
+
+.title-of-bases{
+  margin-left:45%;
+  font-weight: lighter;
+}
+
+.tutorials-div{
+  margin-left:50px;
+}
